@@ -44,7 +44,6 @@ auto_saavuttanut_maalin = False
 
 while not auto_saavuttanut_maalin:
     tunteja_kulunut += 1
-    print(f"\nHour {tunteja_kulunut}:")
 
     for auto in autot:
         auto.kiihdytä(random.randint(-10,15))
